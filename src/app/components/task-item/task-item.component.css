@@ -1,0 +1,17 @@
+.task {
+    background: slateblue;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: rgb(17, 3, 68) 0px 4px 16px, rgb(17, 3, 68) 0px 8px 24px, rgb(52, 3, 230) 0px 16px 56px;  }
+  
+  .task.reminder {
+    border-left: 15px solid rgb(5, 176, 182);
+    box-shadow: 2px 2px 2px rgb(5, 176, 182);
+  }
+  
+  .task h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

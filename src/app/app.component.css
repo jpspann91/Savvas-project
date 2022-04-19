@@ -1,0 +1,35 @@
+nav{
+    background-image: linear-gradient(rgb(170, 16, 201), rgb(7, 28, 216));
+    
+}
+
+
+nav a {
+    /*Clears out any decorations set by previous properties*/
+    text-decoration: none;
+    /*More padding on L/R then top and bottom*/
+    padding: 5px 10px;
+    /*Set color to variable for cyan*/
+    color:rgb(7, 216, 164);
+    /*Margin only on right side*/
+    margin-right: 10px;
+
+    
+    /*does not allow BG image to repeat*/
+    background-repeat: no-repeat;
+    /*Limits background size to just be the bottom section*/
+    background-size: 100% 0.2em;
+    /*easy way to underline the text in nav bar*/
+    background-position: bottom;
+    /*Transition propeties effects the whole element in 0.5 seconds ease in*/
+    transition: all 0.5s ease-in;
+    /*sets to 1.4 times the normal font size*/
+    font-size: 1.4rem;
+}
+/*Psuedo hover class for anchor tags in nav element*/
+nav a:hover {
+    /*Change background size to 100% by 100% was 100% by 0.2em*/
+    background-size: 100% 100%;
+    /*Change text color to light variable needed for contrast*/
+    color: var(--light);
+}

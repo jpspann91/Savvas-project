@@ -1,0 +1,16 @@
+.add-form {
+    margin-bottom: 40px;
+}
+input {
+    background-color: slateblue;
+    
+}
+::placeholder {
+    color: whitesmoke
+
+}
+.form-control {
+    background-color: coral;
+    border: 1px solid slateblue; 
+    color: whitesmoke
+}
